@@ -25,7 +25,7 @@ A secure, modern file transfer server with authentication and extension filterin
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/filevault-server.git
+git clone https://github.com/PiCarODD/filevault-server.git
 cd filevault-server
 
 # Install dependencies
