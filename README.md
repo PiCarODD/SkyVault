@@ -2,7 +2,7 @@
 
 A secure, modern file transfer server with authentication and extension filtering capabilities.
 
-![FileVault Server Interface](https://via.placeholder.com/800x400.png?text=FileVault+Server+Interface+Preview)
+![FileVault Server Interface](https://github.com/PiCarODD/filevault-server/blob/main/image.png)
 
 ## Features ✨
 - 🔑 Password protection for all operations
@@ -49,9 +49,12 @@ pip install -r requirements.txt
 
 ```python filevault.py -ext exe bat sh -type blacklist```
 
+4. Specify directory
+```python filevault.py -dir /tmp```
+
 4. Combined configuration:
 
-```python filevault.py -pass Admin123 -ext pdf docx xlsx -type whitelist --port 8080```
+```python filevault.py -pass Admin123 -ext pdf docx xlsx -type whitelist --port 8080 -dir .```
 
 # Command-Line Options
 
@@ -61,6 +64,7 @@ pip install -r requirements.txt
 | `-pass`       | Set password protection        | None    |
 | `-ext`        | File extensions to filter      | All allowed |
 | `-type`       | Filter type (whitelist/blacklist) | None |
+| `-dir`       | Specify Directory | None |
 
 ---
 
