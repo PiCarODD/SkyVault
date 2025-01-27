@@ -1,8 +1,8 @@
-# FileVault Server 🔒📁
+# SkyVault 🔒📁
 
 A secure, modern file transfer server with authentication and extension filtering capabilities.
 
-![FileVault Server Interface](https://github.com/PiCarODD/filevault-server/blob/main/image.png)
+![SkyVault Interface](https://github.com/PiCarODD/filevault-server/blob/main/image.png)
 
 ## Features ✨
 - 🔑 Password protection for all operations
