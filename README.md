@@ -50,6 +50,7 @@ pip install -r requirements.txt
 ```python filevault.py -ext exe bat sh -type blacklist```
 
 4. Specify directory
+
 ```python filevault.py -dir /tmp```
 
 4. Combined configuration:
